@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BhashaSarthi</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+<body>
+    <div class="main">
+        <!-- <div class="coverbkg">
+            <img src="/static/images/backg.png" alt="">
+        </div> -->
+        <nav class="hide">
+            <div class="container nav__container">
+                <a href="/" class="Synapse-logo"><div class="name">
+                    <h4><img src="/static/images/BlueBlue.png" alt=""></h4>
+                </div></a>
+                <ul class="nav__menu">
+                    <li class="magnet"><a href="../components/index.html">Home</a></li>
+                    <li class="magnet" id="current_page"><a href="../components/about.html">About</a></li>
+                    <li class="magnet"><a href="../components/cards.html">Team</a></li>
+                    <li class="magnet"><a href="../components/Contact.html">Contact</a></li>
+                </ul>
+                <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+            </div>
+        </nav>
+        <div id="page1">
+            <h1>You say,</h1><br>
+            <h1>we Translate</h1>
+            <div class="btn">
+                <a href="../" class="magnet">
+                    <h2>TEXT</h2>
+                    <i class="ri-arrow-left-fill"></i> 
+                </a>
+                <a href="../templates/home.html" class="magnet">
+                    <h2>FILE</h2>
+                    <i class="ri-arrow-right-fill"></i> 
+                </a>
+            </div>
+        </div>
+        
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
