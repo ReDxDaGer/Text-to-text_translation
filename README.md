@@ -1,2 +1,3 @@
-# Text-to-text_translation
-I created a GitHub repository for text-to-text translation, enabling English to Indian regional language conversion
+# rudra-super-translator 
+Any can Translate any language to differrent kinds of languages easily.
+must use it and lets have some fun.
